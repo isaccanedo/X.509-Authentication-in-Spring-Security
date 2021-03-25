@@ -347,7 +347,7 @@ Novamente, usaremos o Firefox:
 
 Agora, quando atualizarmos nosso site, seremos solicitados a selecionar o certificado de cliente que gostaríamos de usar:
 
-<img src="user_identification.png">
+<img src="user_indentification.png">
 
 Se virmos uma mensagem de boas-vindas como “Olá, Bob!”, Isso significa que tudo funciona como esperado!
 
