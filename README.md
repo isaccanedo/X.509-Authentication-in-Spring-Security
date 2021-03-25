@@ -67,7 +67,8 @@ Um arquivo pronto para usar também está disponível aqui.
 Agora, é hora de assinar a solicitação com nosso certificado rootCA.crt e sua chave privada:
 
 ```
-openssl x509 -req -CA rootCA.crt -CAkey rootCA.key -in localhost.csr -out localhost.crt -days 365 -CAcreateserial -extfile localhost.ext
+openssl x509 -req -CA rootCA.crt -CAkey rootCA.key -in localhost.csr -out localhost.crt -days 365 
+-CAcreateserial -extfile localhost.ext
 ```
 
 Observe que temos que fornecer a mesma senha que usamos quando criamos nosso certificado CA.
