@@ -30,6 +30,8 @@ Quando executamos o comando acima, precisamos fornecer a senha para nossa chave 
 
 Além disso, precisamos inserir informações que formam o chamado nome distinto. Aqui, fornecemos apenas o CN (Nome comum) - isaccanedo.com - e deixamos as outras partes em branco.
 
+<img src="openssl.jpg">
+
 # 3. Keystore
 Requisito opcional: Para usar chaves criptograficamente fortes junto com recursos de criptografia e descriptografia, precisaremos dos “Arquivos de política de jurisdição de força ilimitada de extensão de criptografia Java (JCE)” instalados em nosso JVM.
 
